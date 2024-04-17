@@ -8,19 +8,10 @@ title: Publications
 <div class="publications">
   {% for publication in site.data.publications %}
   <div class="publication">
-    <a href="{{ publication.arxiv_link }}" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/{{ publication.image }}" alt="{{ publication.title }}"/>
-    </a>
+    <img src="{{ site.baseurl }}/assets/images/{{ publication.image }}" alt="{{ publication.title }}"/>
     <h2>{{ publication.title }}</h2>
-    <p>{{ publication.authors }}<br>{{ publication.comment }}</p>
-    <a href="{{ publication.arxiv_link }}" target="_blank">arxiv</a>
-    {% if publication.code_link %}
-    <a href="{{ publication.code_link }}" target="_blank">code</a>
-    {% endif %}
-    {% if publication.blog_link %}
-    <a href="{{ publication.blog_link }}" target="_blank">blog</a>
-    {% endif %}
-    <!-- Additional links can go here -->
+    <p>{{ publication.authors }}<br>{{ publication.journal }}, {{ publication.year }}{% if publication.volume %}, Volume: {{ publication.volume }}{% endif %}</p>
+    <a href="{{ publication.paper_url }}" target="_blank">View Publication</a>
   </div>
   {% endfor %}
 </div>
