@@ -5,12 +5,14 @@ avatar: https://yvhsin.github.io/images/avatar.png
 favicon: https://yvhsin.github.io/images/favicon.ico
 
 navigation:
-  - name: 首页
-    url: /
-  - name: 关于
-    url: /about
-  - name: 分类
-    url: /tags
+  - name: "About Me"
+    url: "/about/"
+  - name: "News"
+    url: "/news/"
+  - name: "Gallery"
+    url: "/gallery/"
+  - name: "Publications"
+    url: "/publications/"
 
 paginate: 8
 
