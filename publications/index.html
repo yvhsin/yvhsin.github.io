@@ -8,7 +8,7 @@ title: Publications
 <div class="publications">
   {% for publication in site.data.publications %}
   <div class="publication">
-    <img src="{{ site.baseurl }}/assets/images/{{ publication.image }}" alt="{{ publication.title }}"/>
+    <img src="{{ site.baseurl }}/images/{{ publication.image }}" alt="{{ publication.title }}"/>
     <h2>{{ publication.title }}</h2>
     <p>{{ publication.authors }}<br>{{ publication.journal }}, {{ publication.year }}{% if publication.volume %}, Volume: {{ publication.volume }}{% endif %}</p>
     <a href="{{ publication.paper_url }}" target="_blank">View Publication</a>
