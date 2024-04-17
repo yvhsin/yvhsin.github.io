@@ -2,13 +2,13 @@
   authors: "Yuxin Bian, Enguang Zhang, Jiayan Wang, Rixin Xie, Shenlu Jiang"
   journal: "Sensors and Materials"
   year: 2022
-  image: "swin-transformer-unet.png" # Replace with your actual image file for this publication
-  paper_url: "https://api.semanticscholar.org/CorpusID:253562693"
+  image: "swin-transformer-unet.jpg" # Replace with your actual image file for this publication
+  paper_url: "https://doi.org/10.18494/SAM4059"
 
 - title: "Cervical cell nuclei segmentation based on GC-UNet"
   authors: "Enguang Zhang, Rixin Xie, Yuxin Bian, Jiayan Wang, Pengyi Tao, Heng Zhang, Shenlu Jiang"
   journal: "Heliyon"
   year: 2023
   volume: "9"
-  image: "cervical-cell-nuclei-segmentation.png" # Replace with your actual image file for this publication
-  paper_url: "https://api.semanticscholar.org/CorpusID:259754915"
+  image: "cervical-cell-nuclei-segmentation.jpg" # Replace with your actual image file for this publication
+  paper_url: "https://doi.org/10.1016/j.heliyon.2023.e17647"
