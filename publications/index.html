@@ -3,23 +3,24 @@ layout: page
 title: Publications
 ---
 
-<article class="page">
+<h1>{{ page.title }}</h1>
 
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    <ul class="publications-list">
-      <li>
-        <strong>Cervical cell nuclei segmentation based on GC-UNet</strong><br/>
-        E Zhang, R Xie, Y Bian, J Wang, P Tao, H Zhang, S Jiang<br/>
-        Heliyon, 9 (7), 2023
-      </li>
-      <li>
-        <strong>Swin transformer UNet for very high resolution image dehazing</strong><br/>
-        Y Bian, E Zhang, J Wang, R Xie, S Jiang<br/>
-        Sens. Mater., 34, 4029, 2022
-      </li>
-      <!-- Add more publications here -->
-    </ul>
+<div class="publications">
+  {% for publication in site.data.publications %}
+  <div class="publication">
+    <a href="{{ publication.arxiv_link }}" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/{{ publication.image }}" alt="{{ publication.title }}"/>
+    </a>
+    <h2>{{ publication.title }}</h2>
+    <p>{{ publication.authors }}<br>{{ publication.comment }}</p>
+    <a href="{{ publication.arxiv_link }}" target="_blank">arxiv</a>
+    {% if publication.code_link %}
+    <a href="{{ publication.code_link }}" target="_blank">code</a>
+    {% endif %}
+    {% if publication.blog_link %}
+    <a href="{{ publication.blog_link }}" target="_blank">blog</a>
+    {% endif %}
+    <!-- Additional links can go here -->
   </div>
-</article>
+  {% endfor %}
+</div>
