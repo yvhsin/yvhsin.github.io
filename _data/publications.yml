@@ -2,7 +2,7 @@
   authors: "Yuxin Bian, Enguang Zhang, Jiayan Wang, Rixin Xie, Shenlu Jiang"
   journal: "Sensors and Materials"
   year: 2022
-  image: "https://github.com/yvhsin/yvhsin.github.io/blob/main/images/swin-transformer-unet.jpg" # Replace with your actual image file for this publication
+  image: "swin-transformer-unet.jpg" # Replace with your actual image file for this publication
   paper_url: "https://doi.org/10.18494/SAM4059"
 
 - title: "Cervical cell nuclei segmentation based on GC-UNet"
@@ -10,5 +10,5 @@
   journal: "Heliyon"
   year: 2023
   volume: "9"
-  image: "https://github.com/yvhsin/yvhsin.github.io/blob/main/images/cervical-cell-nuclei-segmentation.jpg" # Replace with your actual image file for this publication
+  image: "cervical-cell-nuclei-segmentation.jpg" # Replace with your actual image file for this publication
   paper_url: "https://doi.org/10.1016/j.heliyon.2023.e17647"
