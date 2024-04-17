@@ -1,7 +1,14 @@
-@article{Bian2022SwinTU,
-  title={Swin Transformer UNet for Very High Resolution Image Dehazing},
-  author={Yuxin Bian and Enguang Zhang and Jiayan Wang and Rixin Xie and Shenlu Jiang},
-  journal={Sensors and Materials},
-  year={2022},
-  url={https://api.semanticscholar.org/CorpusID:253562693}
-}
+- title: "Swin Transformer UNet for Very High Resolution Image Dehazing"
+  authors: "Yuxin Bian, Enguang Zhang, Jiayan Wang, Rixin Xie, Shenlu Jiang"
+  journal: "Sensors and Materials"
+  year: 2022
+  image: "swin-transformer-unet.png" # Replace with your actual image file for this publication
+  paper_url: "https://api.semanticscholar.org/CorpusID:253562693"
+
+- title: "Cervical cell nuclei segmentation based on GC-UNet"
+  authors: "Enguang Zhang, Rixin Xie, Yuxin Bian, Jiayan Wang, Pengyi Tao, Heng Zhang, Shenlu Jiang"
+  journal: "Heliyon"
+  year: 2023
+  volume: "9"
+  image: "cervical-cell-nuclei-segmentation.png" # Replace with your actual image file for this publication
+  paper_url: "https://api.semanticscholar.org/CorpusID:259754915"
