@@ -9,10 +9,12 @@ navigation:
     url: "/about/"
   - name: "News"
     url: "/news/"
-  - name: "Gallery"
-    url: "/gallery/"
   - name: "Publications"
     url: "/publications/"
+  - name: "Blog"
+    url: "/blog/"
+  - name: "Gallery"
+    url: "/gallery/"
 
 paginate: 8
 
